@@ -14,9 +14,3 @@ Moby is the PHP framework that came to simplify your life! With an easy-to-use f
 
 The official [Moby](http://mobyframework.com/docs) documentation is on your website
 
-------------------------------
-
-## Developed:
-By: Vinicius Pugliesi
-Website: viniciuspugliesi.com
-github: https://github.com/viniciuspugliesi
