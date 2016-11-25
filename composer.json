@@ -1,0 +1,42 @@
+{
+    "name": "moby/moby-framework",
+    "description": "The Moby Framework.",
+    "keywords": ["framework", "Moby"],
+	"homepage": "http://mobyframework.com",
+    "license": "MIT",
+    "type": "project",
+	"support": {
+		"forum": "http://forum.mobyframework.com/",
+		"wiki": "https://github.com/viniciusMoby/mobyframework",
+		"source": "https://github.com/bcit-ci/mobyframework"
+	},
+    "autor":{
+        "Nome": "Vinicius Vicente de Lima Pugliesi",
+        "Email": "vinicius_pugliesi@outlook.com",
+        "Site": "http://viniciuspugliesi.com"
+    },
+	"require": {
+		"php": ">=5.5.9"
+	},
+    "autoload":{
+		"psr-4":{
+			"Auth\\":"vendor/moby/Auth/",
+			"Config\\":"vendor/moby/Config/",
+			"Console\\":"vendor/moby/Console/",
+			"DateTime\\":"vendor/moby/DateTime/",
+			"Http\\":"vendor/moby/Http/",
+			"Exception\\":"vendor/moby/Exception",
+			"Helpers\\":"vendor/moby/Helpers/",
+			"Mail\\":"vendor/moby/Mail/",
+			"Model\\":"vendor/moby/Model/",
+			"Response\\":"vendor/moby/Response/",
+			"Routing\\":"vendor/moby/Routing/",
+			"Session\\":"vendor/moby/Session/",
+			"System\\":"vendor/moby/System/",
+			"Template\\":"vendor/moby/Template/",
+			"Validation\\":"vendor/moby/Validation/",
+			"View\\":"vendor/moby/View/",
+			"App\\":"App/"
+		}
+	}
+}
